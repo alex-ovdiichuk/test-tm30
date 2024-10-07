@@ -54,7 +54,3 @@ export const Section2 = () => {
     </section>
   );
 };
-
-const Card = () => {
-  return <div></div>;
-};
