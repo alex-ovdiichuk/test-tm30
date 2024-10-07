@@ -16,7 +16,7 @@ import { Header } from "@/components/Header";
 // });
 const jost = Jost({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-jost",
 });
 
@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jost.variable} antialiased`}>
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

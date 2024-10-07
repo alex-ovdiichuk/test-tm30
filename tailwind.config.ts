@@ -24,7 +24,14 @@ const config: Config = {
       },
       colors: {
         lightBlue: "#e2e6ee",
-        background: "hsl(var(--background))",
+        lightGreen: "#b9ffe6",
+        lightRed: "#ffc3d1",
+        lightPurple: "#fdc3ff",
+        gray1: "#4C5770",
+        lightRed2: "#ffebf2",
+        lightBlue2: "#a3e4ff",
+        accent: "#a3e4ff",
+        accent2: "#09aff4",
         foreground: "hsl(var(--foreground))",
         card: {
           DEFAULT: "hsl(var(--card))",
@@ -45,10 +52,6 @@ const config: Config = {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

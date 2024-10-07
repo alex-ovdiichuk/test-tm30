@@ -1,3 +1,9 @@
+import { Section1 } from "@/components/Section1";
+
 export default function Home() {
-  return <div className="container mx-auto bg-red-400">Main</div>;
+  return (
+    <>
+      <Section1 />
+    </>
+  );
 }
