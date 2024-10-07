@@ -5,8 +5,8 @@ import { section2Data } from "@/data/section2";
 
 export const Section2 = () => {
   return (
-    <section className="container mx-auto px-1 xl:px-[234px] py-[96px]">
-      <div className="rounded-[22px] lg:rounded-[72px] border-2 border-black px-2 py-6 lg:p-[60px] flex flex-col xl:flex-row items-center gap-[28px]">
+    <section className="container mx-auto px-1 xl:px-[234px] py-[56px] xl:py-[96px]">
+      <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black px-2 py-6 lg:p-[60px] flex flex-col xl:flex-row items-center gap-[28px]">
         <div className="w-full xl:w-[516px] flex flex-col gap-8 lg:gap-6">
           <h2 className="text-xl font-normal uppercase">ABOUT US</h2>
           <div className="text-5xl font-bold capitalize">
