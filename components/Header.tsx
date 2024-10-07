@@ -5,7 +5,7 @@ import { MainNav } from "./MainNav";
 
 export const Header = () => {
   return (
-    <header className="container mx-auto flex items-center justify-between xl:justify-start px-[26px] xl:px-[294px] py-[14px] xl:py-[30px]">
+    <header className="container mx-auto flex items-center justify-between xl:justify-start px-[26px] xl:px-[294px] py-[14px] xl:py-[30px] relative z-50">
       <Link
         href="/"
         className="relative w-[74px] h-[29px] mr-0 xl:mr-[110px] block"
