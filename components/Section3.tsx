@@ -12,7 +12,7 @@ export const Section3 = () => {
 
   return (
     <section className="container mx-auto xl:px-[160px] mb-[56px] xl:mb-[96px]">
-      <div className="xl:p-[75px] pb-[58px] bg-lightBlue rounded-[72px] flex flex-col xl:flex-row gap-[114px] items-center">
+      <div className="xl:p-[75px] pb-[58px] bg-lightBlue rounded-[42px] xl:rounded-[72px] flex flex-col xl:flex-row gap-[114px] items-center">
         <div className="px-3 py-7 xl:p-[60px] w-full xl:w-[636px] bg-white rounded-[32px] border-2 border-black">
           <div className="lg:w-[346px] lg:h-[346px] w-[204px] h-[204px] relative mx-auto mb-[38px]">
             <Image
