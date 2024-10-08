@@ -15,7 +15,6 @@ import { Input } from "./ui/input";
 import { Button, buttonVariants } from "./ui/button";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { useToast } from "@/hooks/use-toast";
 import toast from "react-hot-toast";
 
 const formSchema = z.object({
@@ -40,6 +39,7 @@ export const SubscribeForm = () => {
     toast.success("You have successfully subscribed!");
   };
 
+  // eslint-disable-next-line
   const handleErrors = (errors: any) => {
     if (errors.email) {
       toast.error(errors.email.message);
