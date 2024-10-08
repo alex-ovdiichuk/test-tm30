@@ -23,9 +23,9 @@ export const Section3 = () => {
             />
           </div>
           <div className="flex flex-col gap-6">
-            <h2 className="text-xl font-normal uppercase">SERVICES</h2>
+            <h2 className="title">SERVICES</h2>
             <div className="text-big">Services We Offer</div>
-            <p className="text-xl font-normal">
+            <p className="text">
               Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id
               Atque Dignissimos Repellat Quae Ullam.
             </p>
@@ -48,7 +48,7 @@ export const Section3 = () => {
               <h3 className="text-4xl font-bold capitalize">
                 {activeItem.title}
               </h3>
-              <p className="text-xl font-normal">{activeItem.text}</p>
+              <p className="text">{activeItem.text}</p>
               <Link
                 href={activeItem.href}
                 className={buttonVariants({ variant: "inverted" })}

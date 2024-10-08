@@ -18,4 +18,12 @@
   .text-big-italic {
     @apply font-extralight underline italic;
   }
+
+  .title {
+    @apply text-xl font-normal uppercase;
+  }
+
+  .text {
+    @apply text-xl font-normal;
+  }
 }

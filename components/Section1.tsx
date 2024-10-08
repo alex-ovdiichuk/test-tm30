@@ -33,14 +33,12 @@ export const Section1 = () => {
               </a>
             ))}
           </div>
-          <h2 className="text-black text-xl font-normal uppercase mb-6">
-            IT SOLUTIONS
-          </h2>
+          <h2 className="title mb-6">IT SOLUTIONS</h2>
           <div className="text-big mb-6">
             Providing The Best Services & IT{" "}
             <span className="text-big-italic">Solutions</span>
           </div>
-          <p className="text-xl font-normal mb-6">
+          <p className="text mb-6">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
             architecto dolorum inventore totam adipisci
           </p>

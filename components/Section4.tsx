@@ -30,12 +30,12 @@ export const Section4 = () => {
           />
         </div>
         <div className="flex flex-col gap-6">
-          <h2 className="text-xl font-normal uppercase">WHY CHOOSE US</h2>
+          <h2 className="title">WHY CHOOSE US</h2>
           <div className="text-big">
             Why Our Customers Choose{" "}
             <span className="text-big-italic">Working</span> With Us
           </div>
-          <p className="text-xl font-normal">
+          <p className="text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A officia
             molestiae dolorum tempora ut accusamus cupiditate! Nesciunt tempora
             reiciendis libero voluptate!
@@ -62,7 +62,7 @@ export const Section4 = () => {
               <h3 className="text-3xl xl:text-4xl font-bold capitalize mb-6">
                 {i.title}
               </h3>
-              <p className="text-xl font-normal">{i.text}</p>
+              <p className="text">{i.text}</p>
             </div>
           </div>
         ))}
