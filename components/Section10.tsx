@@ -46,7 +46,10 @@ const data = [
 
 export const Section10 = () => {
   return (
-    <section className="container mx-auto px-0 xl:px-[160px] mb-12">
+    <section
+      className="container mx-auto px-0 xl:px-[160px] mb-12"
+      id="section10"
+    >
       <div className="rounded-[42px] xl:rounded-[72px] bg-lightBlue py-7 xl:py-[38px] px-3 xl:px-[135px]">
         <div className="mb-[38px] flex flex-col lg:flex-row items-start lg:items-end justify-between">
           <div>

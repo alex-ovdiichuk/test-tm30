@@ -6,12 +6,17 @@ import { Button, buttonVariants } from "./ui/button";
 import { section3Data } from "@/data/section3";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { NextSection } from "./NextSection";
 
 export const Section3 = () => {
   const [activeItem, setActiveItem] = useState(section3Data[0]);
 
   return (
-    <section className="container mx-auto xl:px-[160px] mb-[56px] xl:mb-[96px]">
+    <section
+      className="container mx-auto xl:px-[160px] mb-[56px] xl:mb-[96px] relative"
+      id="section3"
+    >
+      <NextSection id="#section4" />
       <div className="xl:p-[75px] pb-[58px] bg-lightBlue rounded-[42px] xl:rounded-[72px] flex flex-col xl:flex-row gap-[114px] items-center">
         <div className="px-3 py-7 xl:p-[60px] w-full xl:w-[636px] bg-white rounded-[32px] border-2 border-black">
           <div className="lg:w-[346px] lg:h-[346px] w-[204px] h-[204px] relative mx-auto mb-[38px]">

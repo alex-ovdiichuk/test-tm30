@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Fragment } from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import { NextSection } from "./NextSection";
 
 const data = [
   {
@@ -46,8 +47,10 @@ export const Section5 = () => {
     <section
       className="container mx-auto px-7 lg:px-0 xl:px-[306px] pb-[96px]"
       ref={ref}
+      id="section5"
     >
-      <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black p-7 xl:p-[60px] flex justify-between flex-col lg:flex-row gap-8 lg:gap-0">
+      <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black p-7 xl:p-[60px] flex justify-between flex-col lg:flex-row gap-8 lg:gap-0 relative">
+        <NextSection id="#section6" />
         {data.map((i, idx) => (
           <Fragment key={i.text}>
             <div className="relative">

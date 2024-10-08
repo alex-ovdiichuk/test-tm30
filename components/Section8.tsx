@@ -2,6 +2,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
+import { NextSection } from "./NextSection";
 
 const data = [
   {
@@ -60,7 +61,11 @@ const data = [
 
 export const Section8 = () => {
   return (
-    <section className="container mx-auto px-0 xl:px-[160px]">
+    <section
+      className="container mx-auto px-0 xl:px-[160px] relative"
+      id="section8"
+    >
+      <NextSection id="#section9" />
       <div className="rounded-[42px] lg:rounded-[72px] bg-lightBlue py-7 lg:py-[38px] px-3 lg:px-8 xl:px-[135px]">
         <div className="mb-[38px] flex flex-col xl:flex-row justify-between items-start xl:items-center">
           <div className="flex flex-col gap-6 mb-6 xl:mb-0">

@@ -2,11 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { buttonVariants } from "./ui/button";
 import { section2Data } from "@/data/section2";
+import { NextSection } from "./NextSection";
 
 export const Section2 = () => {
   return (
-    <section className="container mx-auto px-1 xl:px-[234px] py-[56px] xl:py-[96px]">
-      <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black px-2 py-6 lg:p-[60px] flex flex-col xl:flex-row items-center gap-[28px]">
+    <section
+      className="container mx-auto px-1 xl:px-[234px] py-[56px] xl:py-[96px]"
+      id="section2"
+    >
+      <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black px-2 py-6 lg:p-[60px] flex flex-col xl:flex-row items-center gap-[28px] relative">
+        <NextSection id="#section3" />
         <div className="w-full xl:w-[516px] flex flex-col gap-8 lg:gap-6">
           <h2 className="title">ABOUT US</h2>
           <div className="text-big">

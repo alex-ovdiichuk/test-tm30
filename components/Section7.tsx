@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { NextSection } from "./NextSection";
 
 const items = [
   {
@@ -20,7 +21,14 @@ const items = [
 
 export const Section7 = () => {
   return (
-    <section className="container mx-auto px-3 lg:px-0 xl:px-[294px] py-[56px] lg:py-[96px] overflow-hidden">
+    <section
+      className="container mx-auto px-3 lg:px-0 xl:px-[294px] py-[56px] lg:py-[96px] overflow-hidden relative"
+      id="section7"
+    >
+      <NextSection
+        id="#section8"
+        className="xl:bottom-7 lg:bottom-12 bottom-7"
+      />
       <p className="text-big mb-12">
         Trusted By Over <span className="text-big-italic">500</span> Clients
         Around The World

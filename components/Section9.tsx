@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Fragment } from "react";
+import { NextSection } from "./NextSection";
 
 const data = [
   {
@@ -24,10 +25,14 @@ const data = [
 
 export const Section9 = () => {
   return (
-    <section className="container mx-auto px-3 xl:px-[294px] py-[48px] xl:py-[96px]">
+    <section
+      className="container mx-auto px-3 xl:px-[294px] py-[48px] xl:py-[96px]"
+      id="section9"
+    >
       <h2 className="title mb-6">Testimonials</h2>
       <div className="text-big mb-[38px]">Customers Testmonials</div>
-      <div className="flex flex-col lg:flex-row justify-between items-center rounded-[22px] xl:rounded-[72px] border-2 border-black p-6 xl:p-[50px] gap-4 lg:gap-0">
+      <div className="flex flex-col lg:flex-row justify-between items-center rounded-[22px] xl:rounded-[72px] border-2 border-black p-6 xl:p-[50px] gap-4 lg:gap-0 relative">
+        <NextSection id="#section10" />
         {data.slice(0, 3).map((t, idx) => (
           <Fragment key={t.author}>
             <div className="w-full lg:w-[30%]">

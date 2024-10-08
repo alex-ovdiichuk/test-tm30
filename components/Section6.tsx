@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { Item } from "./Section6/Item";
+import { NextSection } from "./NextSection";
 
 const tags = ["Mobile Apps", "Cloud", "Data Analysis", "Hosting"];
 
@@ -62,7 +63,11 @@ export const Section6 = () => {
   const [tag, setTag] = useState("All");
 
   return (
-    <section className="bg-lightBlue rounded-[42px] xl:rounded-[72px]">
+    <section
+      className="bg-lightBlue rounded-[42px] xl:rounded-[72px] relative"
+      id="section6"
+    >
+      <NextSection id="#section7" />
       <div className="container mx-auto px-3 lg:px-0 xl:px-[294px] pt-[38px] pb-16">
         <div className="title mb-6">Portfolio</div>
         <h2 className="text-big mb-[38px]">Awesome Portfolio</h2>
