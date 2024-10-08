@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { Fragment } from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
@@ -48,7 +49,7 @@ export const Section5 = () => {
     >
       <div className="rounded-[22px] xl:rounded-[72px] border-2 border-black p-7 xl:p-[60px] flex justify-between flex-col lg:flex-row gap-8 lg:gap-0">
         {data.map((i, idx) => (
-          <>
+          <Fragment key={i.text}>
             <div className="relative">
               <div className="absolute inset-0 bg-black/20 rounded-[32px]"></div>
               <div
@@ -72,7 +73,7 @@ export const Section5 = () => {
             {idx + 1 !== data.length && (
               <div className="w-full lg:w-[2px] h-[2px] lg:h-auto bg-black "></div>
             )}
-          </>
+          </Fragment>
         ))}
       </div>
     </section>

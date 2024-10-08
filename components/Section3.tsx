@@ -24,9 +24,7 @@ export const Section3 = () => {
           </div>
           <div className="flex flex-col gap-6">
             <h2 className="text-xl font-normal uppercase">SERVICES</h2>
-            <div className="text-5xl font-bold capitalize">
-              Services We Offer
-            </div>
+            <div className="text-big">Services We Offer</div>
             <p className="text-xl font-normal">
               Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Omnis Id
               Atque Dignissimos Repellat Quae Ullam.

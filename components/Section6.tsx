@@ -65,9 +65,7 @@ export const Section6 = () => {
     <section className="bg-lightBlue rounded-[42px] xl:rounded-[72px]">
       <div className="container mx-auto px-3 lg:px-0 xl:px-[294px] pt-[38px] pb-16">
         <div className="text-xl font-normal uppercase mb-6">Portfolio</div>
-        <h2 className="text-5xl font-bold capitalize mb-[38px]">
-          Awesome Portfolio
-        </h2>
+        <h2 className="text-big mb-[38px]">Awesome Portfolio</h2>
         <div className="flex gap-4 mb-[38px] flex-wrap">
           {["All", ...tags].map((t) => (
             <Button
