@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Image from "next/image";
 import { MainNav } from "./MainNav";
 
@@ -13,6 +13,7 @@ export const MobileMenu = () => {
           width={24}
           height={24}
           alt="Burger menu"
+          className="w-6 h-6"
         />
       </SheetTrigger>
       <SheetContent side="left" className="w-1/2">

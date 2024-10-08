@@ -36,6 +36,7 @@ export const Section3 = () => {
                 width={24}
                 height={24}
                 alt="Arrow icon"
+                className="w-6 h-6"
               />
             </Link>
           </div>
@@ -59,6 +60,7 @@ export const Section3 = () => {
                   width={24}
                   height={24}
                   alt="Forward"
+                  className="w-6 h-6"
                 />
               </Link>
             </div>

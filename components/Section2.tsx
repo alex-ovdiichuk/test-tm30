@@ -25,6 +25,7 @@ export const Section2 = () => {
               width={24}
               height={24}
               alt="Arrow icon"
+              className="w-6 h-6"
             />
           </Link>
         </div>

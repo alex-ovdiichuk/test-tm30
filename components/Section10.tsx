@@ -60,13 +60,14 @@ export const Section10 = () => {
               width={24}
               height={24}
               alt="Arrow icon"
+              className="w-6 h-6"
             />
           </Link>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 xl:gap-[57px]">
-          {data.slice(0, 3).map((i) => (
-            <div key={i.title} className="relative group">
+          {data.slice(0, 3).map((i, idx) => (
+            <div key={idx} className="relative group">
               <div className="absolute inset-0 bg-black/20 rounded-[32px]"></div>
               <div className="border-2 border-black rounded-[32px] overflow-hidden relative z-10 group-hover:-translate-y-1.5 transition-all duration-300">
                 <div className="p-10 bg-lightRed2 border-b-2 border-black">
@@ -94,11 +95,12 @@ export const Section10 = () => {
                         width={16}
                         height={16}
                         alt="Calendar icon"
+                        className="w-4 h-4"
                       />
                     </div>
-                    {i.tags.map((t) => (
+                    {i.tags.map((t, idx) => (
                       <div
-                        key={t}
+                        key={idx}
                         className="bg-black text-sm font-medium text-white py-1.5 px-[14px] hover:bg-black/50 rounded-full"
                       >
                         {t}
@@ -116,6 +118,7 @@ export const Section10 = () => {
                         width={26}
                         height={26}
                         alt="User Avatar"
+                        className="w-[26px] h-[26px]"
                       />
                       <div className="text leading-tight">{i.author.name}</div>
                     </div>
@@ -126,6 +129,7 @@ export const Section10 = () => {
                         width={24}
                         height={24}
                         alt="Arrow icon"
+                        className="w-6 h-6"
                       />
                     </Link>
                   </div>

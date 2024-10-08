@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { MobileMenu } from "./MobileMenu";
-import { MainNav } from "./MainNav";
+import { MobileMenu } from "./Header/MobileMenu";
+import { MainNav } from "./Header/MainNav";
 
 export const Header = () => {
   return (

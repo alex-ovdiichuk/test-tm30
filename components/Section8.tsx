@@ -78,6 +78,7 @@ export const Section8 = () => {
               width={24}
               height={24}
               alt="Arrow icon"
+              className="w-6 h-6"
             />
           </Link>
         </div>
@@ -101,6 +102,7 @@ export const Section8 = () => {
                         width={24}
                         height={24}
                         alt="Star icon"
+                        className="w-6 h-6"
                       />
                     </div>
                   )}
@@ -122,6 +124,7 @@ export const Section8 = () => {
                         width={20}
                         height={20}
                         alt="Check icon"
+                        className="w-5 h-5"
                       />
                       {f}
                     </li>
