@@ -12,7 +12,7 @@ export const NextSection: React.FC<NextSectionProps> = ({ id, className }) => {
     <Link
       href={id}
       className={cn(
-        "w-[52px] h-[52px] xl:w-[78px] xl:h-[78px] rounded-full bg-black flex items-center justify-center absolute -bottom-[26px] xl:-bottom-[39px] left-1/2 -translate-x-1/2",
+        "w-[52px] h-[52px] xl:w-[78px] xl:h-[78px] rounded-full bg-black flex items-center justify-center absolute -bottom-[26px] xl:-bottom-[39px] left-1/2 -translate-x-1/2 hover:bg-black/60 transition-all duration-300",
         className
       )}
     >

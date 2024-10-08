@@ -68,7 +68,7 @@ export const Footer = () => {
                     href={i.href}
                     target="_blank"
                     key={id}
-                    className="bg-white h-10 w-10 rounded-full flex justify-center items-center transition-all duration-300 hover:bg-black/50"
+                    className="bg-white h-10 w-10 rounded-full flex justify-center items-center transition-all duration-300 hover:bg-white"
                   >
                     <i.icon className="h-6 w-6 text-black" />
                   </a>

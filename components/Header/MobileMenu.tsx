@@ -6,7 +6,7 @@ import { MainNav } from "./MainNav";
 export const MobileMenu = () => {
   return (
     <Sheet>
-      <SheetTrigger className="bg-black text-white text-xl font-medium py-2 px-[22px] rounded-full flex items-center gap-2 xl:hidden">
+      <SheetTrigger className="bg-black text-white text-xl font-medium py-2 px-[22px] rounded-full flex items-center gap-2 xl:hidden hover:bg-black/60 transition-all duration-300">
         Menu
         <Image
           src="/assets/burger.svg"
